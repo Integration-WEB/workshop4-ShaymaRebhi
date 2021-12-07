@@ -10,6 +10,17 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'lacuna_regularregular';
+    src: url('../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont.eot');
+    src: url('../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont.woff') format('woff'),
+    url('../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont.ttf') format('truetype'),
+    url('../fontface/Lacuna-Regular-fontfacekit/web fonts/lacuna_regular_macroman/lacuna-webfont.svg#lacuna_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 ul{
@@ -40,10 +51,53 @@ ul{
 }
 .bi-circle-fill{
     color: #f0bd01;
+    font-size: 1.75rem;
 }
 .section1{
     background-color: #3a0a12;
+    height: 23.125rem ;
+    padding-top: 7rem;
 }
-footer{
+.section1-icon{
+    margin-left: 1.25rem;
+    margin-bottom: 1.625rem;
+}
+.section1 p {
+    font-family:lacuna_regularregular ;
+}
+.section2-colonne2{
+}
+.fa-quote-left{
+    color: #616161 ! important ;
+    font-size: 3.125rem !important;
+}
+.section2-bloc1{
+    padding-top: 8.188rem;
+    margin-bottom: 3.938rem;
+}
+.btn-more{
     background-color: #e4bc01;
+    margin-left: 25.438rem;
+    width: 5.316rem;
+    border: 0;
 }
+footer {
+    background-color: #e4bc01;
+    padding-top: 2.5rem;
+
+}
+span {
+    font-family: 'League Gothic';
+    font-weight: bold;
+    font-size: 1.813rem;
+}
+footer a {
+    background-color: white;
+
+    color: #e4bc01;
+    border-radius: 50%;
+}
+footer a i{
+    margin: 0.25rem;
+}
+
